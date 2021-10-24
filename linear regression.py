@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
-dataSet = pd.read_csv('http://bit.ly/w-data')
+dataSet = pd.read_csv('')
 dataSet.head()
 dataSet.isnull()
 
