@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
-dataSet = pd.read_csv('')
+dataSet = pd.read_csv('https://raw.githubusercontent.com/gokuismyname/linear-regression-Website-Phishing/main/stock%20prediction.csv')
 dataSet.head()
 dataSet.isnull()
 
